@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rachel Olufunmilayo | Medical Laboratory Scientist and AI Evaluator</title>
+<meta name="description" content="Registered Medical Laboratory Scientist (histopathology and molecular pathology) and AI response evaluator. Available for remote contract work.">
+<style>
+  :root {
+    --ink: #0d0720;        /* hematoxylin */
+    --ink-2: #1a1038;
+    --line: #3a2a70;
+    --text: #ffffff;
+    --muted: #cfc6ee;
+    --eosin: #ff5c9d;      /* eosin pink */
+    --hema: #a28bff;       /* hematoxylin violet */
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { color-scheme: dark; scroll-behavior: smooth; }
+  body {
+    background: var(--ink);
+    color: var(--text);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.55;
+    font-size: 17px;
+    -webkit-text-size-adjust: 100%;
+  }
+  a { color: inherit; }
+  a:focus-visible, button:focus-visible { outline: 3px solid var(--eosin); outline-offset: 3px; }
+  .wrap { max-width: 920px; margin: 0 auto; padding: 0 22px; }
+
+  /* Hero */
+  .hero { padding: 56px 0 64px; position: relative; overflow: hidden; }
+  .hero::before {
+    content: ""; position: absolute; inset: -20% -30% auto auto; width: 90vw; max-width: 640px; aspect-ratio: 1;
+    background:
+      radial-gradient(circle at 35% 40%, rgba(162,139,255,.55), transparent 55%),
+      radial-gradient(circle at 65% 65%, rgba(255,92,157,.5), transparent 50%);
+    filter: blur(30px); z-index: 0; pointer-events: none;
+    animation: stain 2.4s ease-out both;
+  }
+  @keyframes stain { from { opacity: 0; transform: scale(.7); } to { opacity: 1; transform: scale(1); } }
+  .hero .wrap { position: relative; z-index: 1; }
+  .status { display: inline-block; border: 2px solid var(--eosin); color: var(--eosin); padding: 6px 14px; border-radius: 999px; font-weight: 700; font-size: 14px; margin-bottom: 28px; }
+  h1 {
+    font-size: clamp(54px, 15vw, 128px);
+    line-height: .9; font-weight: 900; letter-spacing: -.045em;
+  }
+  h1 .first { color: var(--eosin); display: block; }
+  h1 .last { color: var(--text); display: block; }
+  .roles { margin-top: 30px; display: grid; gap: 10px; font-size: clamp(20px, 4.6vw, 28px); font-weight: 800; line-height: 1.2; }
+  .roles span:nth-child(1) { color: var(--hema); }
+  .roles span:nth-child(2) { color: var(--eosin); }
+  .lede { margin-top: 28px; max-width: 60ch; color: var(--muted); font-size: 18px; }
+  .cta { margin-top: 32px; display: flex; flex-wrap: wrap; gap: 12px; }
+  .btn {
+    display: inline-block; padding: 15px 24px; border-radius: 10px; font-weight: 800; text-decoration: none;
+    border: 2px solid var(--text); min-height: 48px;
+  }
+  .btn.primary { background: var(--eosin); border-color: var(--eosin); color: #1b0010; }
+  .btn.primary:active { transform: translateY(1px); }
+  .btn.ghost:hover { background: var(--text); color: var(--ink); }
+
+  /* Sections */
+  section { padding: 56px 0; border-top: 2px solid var(--line); }
+  h2 { font-size: clamp(32px, 8vw, 52px); font-weight: 900; letter-spacing: -.03em; line-height: 1; margin-bottom: 30px; }
+  h3 { font-size: 21px; font-weight: 800; line-height: 1.25; }
+  p.meta { color: var(--muted); font-size: 15px; margin-top: 4px; }
+
+  .job { padding: 26px 0; border-bottom: 1px solid var(--line); }
+  .job:last-child { border-bottom: 0; }
+  .job header { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 6px 18px; align-items: baseline; }
+  .when { color: var(--eosin); font-weight: 800; font-size: 15px; white-space: nowrap; }
+  .job ul { margin-top: 14px; padding-left: 20px; display: grid; gap: 9px; color: #ece8fb; }
+  .job li::marker { color: var(--hema); }
+
+  .grid { display: grid; gap: 14px; }
+  @media (min-width: 700px) { .grid.two { grid-template-columns: 1fr 1fr; } }
+  .panel { background: var(--ink-2); border: 2px solid var(--line); border-radius: 14px; padding: 22px; }
+  .panel h3 { margin-bottom: 8px; }
+  .panel.h { border-color: var(--hema); }
+  .panel.e { border-color: var(--eosin); }
+  .panel p { color: #ece8fb; }
+
+  .skills { display: grid; gap: 18px; }
+  .skills dt { font-weight: 800; color: var(--hema); }
+  .skills dd { color: #ece8fb; margin-top: 2px; }
+
+  .contact { text-align: left; }
+  .contact .mail { display: block; font-size: clamp(20px, 5.6vw, 38px); font-weight: 900; letter-spacing: -.02em; color: var(--eosin); word-break: break-all; margin-bottom: 18px; }
+  footer { padding: 30px 0 50px; color: var(--muted); font-size: 14px; border-top: 2px solid var(--line); }
+
+  @media (prefers-reduced-motion: reduce) { .hero::before { animation: none; } html { scroll-behavior: auto; } }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <span class="status">Open to remote contract work</span>
+    <h1><span class="first">Rachel</span><span class="last">Olufunmilayo</span></h1>
+    <div class="roles">
+      <span>Medical Laboratory Scientist</span>
+      <span>AI Response Evaluator and Prompt Engineer</span>
+    </div>
+    <p class="lede">Registered MLSCN scientist in histopathology and molecular pathology, applying the same precision to checking what large language models say as to checking what a specimen shows.</p>
+    <div class="cta">
+      <a class="btn primary" href="mailto:toluwafunmilayo809@gmail.com">Email me</a>
+      <a class="btn ghost" href="#experience">See experience</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section id="about">
+    <div class="wrap">
+      <h2>Two kinds of diagnosis</h2>
+      <div class="grid two">
+        <div class="panel h">
+          <h3>In the lab</h3>
+          <p>Specimen handling, testing and quality control to MLSCN clinical standards, with rotations through histopathology and molecular pathology.</p>
+        </div>
+        <div class="panel e">
+          <h3>In the model</h3>
+          <p>Rubric-based ranking of AI responses for accuracy, coherence and safety, plus prompt design and fact-checking for human-in-the-loop workflows.</p>
+        </div>
+      </div>
+      <p class="lede" style="margin-top:26px">Four years of community management and content leadership in Web3 ecosystems sit alongside both.</p>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="wrap">
+      <h2>Experience</h2>
+
+      <article class="job">
+        <header>
+          <div>
+            <h3>Medical Laboratory Science Intern</h3>
+            <p class="meta">Federal Medical Centre, Owo (MLSCN-approved institution), Ondo State</p>
+          </div>
+          <span class="when">Jul 2026 to Present</span>
+        </header>
+        <ul>
+          <li>Supervised clinical internship toward full MLSCN professional registration, rotating through core units including histopathology and molecular pathology.</li>
+          <li>Applying specimen handling, testing and quality-control protocols in line with MLSCN clinical standards.</li>
+          <li>Preparing for the Board of Chartered (BOC) examination, with focused study in transfusion medicine and hematology.</li>
+        </ul>
+      </article>
+
+      <article class="job">
+        <header>
+          <div>
+            <h3>AI Response Evaluator and Data Annotation Specialist</h3>
+            <p class="meta">Handshake AI and Outlier, Remote</p>
+          </div>
+          <span class="when">Jan 2026 to Present</span>
+        </header>
+        <ul>
+          <li>Evaluate and rank AI-generated responses against structured rubrics for accuracy, coherence, safety and overall quality.</li>
+          <li>Create adversarial, chart-based questions for vision-language model red-teaming as part of Project Escher.</li>
+          <li>Design, test and refine prompts that probe instruction-following, reasoning and edge cases.</li>
+          <li>Fact-check and verify sources to confirm the reliability of model outputs.</li>
+        </ul>
+      </article>
+
+      <article class="job">
+        <header>
+          <div>
+            <h3>Web3 Key Opinion Leader and Brand Ambassador</h3>
+            <p class="meta">Wizzwoods, BaseTeddies, BITBUBS, Remote</p>
+          </div>
+          <span class="when">2022 to Present</span>
+        </header>
+        <ul>
+          <li>Create social content and drive community engagement across DeFi, prediction markets, NFT projects and blockchain infrastructure.</li>
+          <li>Represent Web3 projects as a brand ambassador, building community trust and visibility.</li>
+          <li>Translate technical project updates into clear, structured writing for general audiences.</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="wrap">
+      <h2>What I bring</h2>
+      <dl class="skills">
+        <div><dt>Clinical diagnostics</dt><dd>Histopathology, molecular pathology, specimen processing, quality control and compliance.</dd></div>
+        <div><dt>AI evaluation</dt><dd>LLM response evaluation, rating and ranking, output quality assessment, safety and alignment review.</dd></div>
+        <div><dt>Prompt engineering</dt><dd>Prompt design, optimization and stress-testing, instruction-following evaluation, zero-shot and few-shot prompting.</dd></div>
+        <div><dt>Data annotation</dt><dd>Data labelling, human-in-the-loop workflows, RLHF feedback and quality assurance.</dd></div>
+        <div><dt>Research and QA</dt><dd>Fact-checking, source verification, rubric-based evaluation, error detection.</dd></div>
+        <div><dt>Communication</dt><dd>Technical writing, content editing, community management, cross-platform audience engagement.</dd></div>
+        <div><dt>Tools</dt><dd>ChatGPT, Claude, Gemini, Handshake AI, Outlier, Microsoft Office, Google Workspace.</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <section id="education">
+    <div class="wrap">
+      <h2>Education and registration</h2>
+      <div class="grid two">
+        <div class="panel h">
+          <h3>BSc, Medical Laboratory Science</h3>
+          <p class="meta">Ambrose Alli University, Ekpoma, Edo State, Nigeria<br>2017 to 2023</p>
+        </div>
+        <div class="panel e">
+          <h3>MLSCN Registration</h3>
+          <p class="meta">Medical Laboratory Science Council of Nigeria</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="wrap">
+      <h2>Work with me</h2>
+      <a class="mail" href="mailto:toluwafunmilayo809@gmail.com">toluwafunmilayo809@gmail.com</a>
+      <p class="lede" style="margin-top:0">Available for remote, part-time or full-time contract work. Comfortable with asynchronous, task-based projects alongside my clinical internship.</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">Rachel Olufunmilayo, Medical Laboratory Scientist and AI Evaluator</div>
+</footer>
+
+</body>
+</html>
